@@ -1,4 +1,4 @@
-![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/43628dfe-047f-4b8f-8b67-9f12e9325938)# BetterPick
+# BetterPick
 > Modern menu selection in command prompt for command lines app! 
 # How to install
 Easily download `.py` files from `Release` tab than drag it into your Project folder.
@@ -6,7 +6,7 @@ Easily download `.py` files from `Release` tab than drag it into your Project fo
 # Examples
 > `BetterPick` is very easy too use!
 ## For regular use:  
-`Pick("Your menu title goes here!",["Your selection here","Sec1","Sec2"],(True or False - Multiselect) )`
+`Pick("Your menu title goes here!",["Your selection here","Sec1","Sec2"],(True or False - Multiselect) )`  
 **Note:** In Default, To move up or down selection use key `W,S` . Press `Enter` to submit choose. Also in multichoose , press `Spacebar` to check a selection (To change these key , look for "Change key-binding" in Advance use below)
 
 Code: 
@@ -60,3 +60,5 @@ print(Pick("Programming Languages",["Python","Java","C++"],key=Key))
 ```
 --- 
 **Fun Fact:** The menu title argument can be `String` or `Function`!
+
+# (C) ScadeBlock
