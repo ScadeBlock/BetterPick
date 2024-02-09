@@ -1,10 +1,11 @@
 # BetterPick
 > Modern menu selection in command prompt for command lines app! 
 # How to install
-Easily download `.py` files from `Release` tab than drag it into your Project folder.
-+ Install Library
-> BetterPick use [Colorama](https://pypi.org/project/colorama/) and [Keyboard](https://pypi.org/project/keyboard/)  
-Install with `pip install colorama keyboard`
++ Option 1 (Recommend) : Pip
+    - Easily run: `pip install better-pick`
++ Option 2 : Manual Install
+    - Easily download `.py` files from `Release` tab than drag it into your Project folder.
+    - Install requirements with `pip install colorama keyboard`
 ## Compatibility
 Support: Python 3.x & Windows (Linux seems supported too but I haven't tested yet)
 # Examples
