@@ -24,12 +24,12 @@ from BetterPick import Pick
 
 ### Output:
 + Single-Choose (Multiselect = False)  
-![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/ff7bb2a9-adbb-4591-b811-8e8f7f38d188)
+![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/425d53bf-068d-4e6d-9e5e-ec1f3bdfc4d9)
 + Multiselect  
-![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/37b09583-8986-433e-848f-fee62b324f10)
+![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/65d3e606-9a51-4ed8-a30a-1da9fca317a9)
 
 ## For advance-use
-+ Set highlight color  
+### Set highlight color  
 ```
 from BetterPick import Pick
 from colorama import Fore
@@ -38,9 +38,9 @@ print(Pick("Programming Languages",["Python","Java","C++"],highlight_color=Fore.
 ```
 > BetterPick's Highlight use [`Colorama`](https://pypi.org/project/colorama/) (Really Good Library).
 + Output  
-![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/4631f67f-7fd2-41c0-86b5-e2a067d265a5)
+![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/b4149c05-621b-433b-bbdf-8b01bd98790f)
 ------
-+ Change indicator
+### Change indicator
 ```
 import BetterPick
 from BetterPick import Pick
@@ -49,9 +49,48 @@ BetterPick.INDICATOR = "*"
 print(Pick("Programming Languages",["Python","Java","C++"]))
 ```
 + Output:  
-![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/1ffdcb42-3331-4db2-a83c-1845184991e3)
+![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/bc39b17d-6672-4861-b151-d57c7b38155f)
+
+**Fun Fact:** You can add color to BetterPick's Indicator too(Only recommend for v1.1a and above & I recommend using `Colorama` for colors). For example :  
+```
+import BetterPick
+from BetterPick import Pick
+from colorama import Fore,Style
+
+BetterPick.COLOR_INDICATOR = f"{Fore.RED}*{Style.RESET_ALL}" # Indicator WITH color
+BetterPick.INDICATOR = "*" # Indicator WITHOUT color
+print(Pick("Programming Languages",["Python","Java","C++"]))
+```
 ---
-+ Change Key-binding  
+### Change checkbox in multiselect mode(For `Betterpick v1.1a` and above)
+```
+import BetterPick
+from BetterPick import Pick
+BetterPick.MULTISELECT_CHECK = "[x]"
+BetterPick.MULTISELECT_UNCHECK = "[ ]"
+print(Pick("Programming Languages",["Python","Java","C++"],multiselect=True))
+```
+![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/a0b67b28-2d71-4407-a610-923365a59100)
+
+**Fun Fact:** You can set Select box with colors too!
+
+---
+### Pop-up animation (`v1.1a` or above)
+
+```
+import BetterPick
+from BetterPick import Pick
+from colorama import Fore,Style
+
+print(Pick("Programming Languages",["Python","Java","C++"],popup_animation=True))
+```
+
+| Without Pop-up animation   | With Pop-up animation |
+|----------------------------|-----------------------|
+|![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/aff129cf-0bcd-4ecb-8402-976eb6a1b4b0)|![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/536d55a6-f3cf-468a-9b9c-6927fa24aae2)|
+
+---
+### Change Key-binding  
 ```
 from BetterPick import Pick
 Key = {
@@ -65,4 +104,4 @@ print(Pick("Programming Languages",["Python","Java","C++"],key=Key))
 --- 
 **Fun Fact:** The menu title argument can be `String` or `Function`!
 
-# (C) ScadeBlock
+# (C) 2024 - Made By ScadeBlock
