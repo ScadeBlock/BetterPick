@@ -76,6 +76,15 @@ print(Pick("Programming Languages",["Python","Java","C++"],multiselect=True))
 **Fun Fact:** You can set Select box with colors too!
 
 ---
+### Default choice(auto choose) in MultiSelect (`BetterPick 1.2` or above)
+```
+from BetterPick import Pick
+print(Pick("Programming Languages",["Python","Java","C++"],multiselect=True,auto_choose=[0]))
+```
+![image](https://github.com/ScadeBlock/BetterPick/assets/89845150/0ad02b6a-44a4-4de9-ac43-7a7f99ae30b3)
+
+
+---
 ### Pop-up animation (`v1.1a` or above)
 
 ```
