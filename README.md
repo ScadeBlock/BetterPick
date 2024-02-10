@@ -10,6 +10,10 @@
 Support: Python 3.x & Windows (Linux seems supported too but I haven't tested yet)
 # ✨ Examples
 > `BetterPick` is very easy too use! 🍖
+## Supereme Demo
++ Combine BetterPick with [PyEmoji](https://pypi.org/project/emoji/) and [PyStyle](https://pypi.org/project/pystyle)  
+![bandicam 2024-02-10 10-51-38-986](https://github.com/ScadeBlock/BetterPick/assets/89845150/7117cafb-56c8-48d9-adf6-8a73bbf94fa6)
+
 ## For regular use:  
 `Pick("Your menu title goes here!",["Your selection here","Sec1","Sec2"],(True or False - Multiselect) )`  
 **Note:** In Default, To move up or down selection use key `W,S` . Press `Enter` to submit choose. Also in multichoose , press `Spacebar` to check a selection (To change these key , look for "Change key-binding" in Advance use below)
