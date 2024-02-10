@@ -1,15 +1,15 @@
-# BetterPick
+# BetterPick 💬
 > Modern menu selection in command prompt for command lines app! 
-# How to install
-+ Option 1 (Recommend) : Pip
+# 👋 How to install
++ 🧡 Option 1 (Recommend) : Pip
     - Easily run: `pip install better-pick`
 + Option 2 : Manual Install
     - Easily download `.py` files from `Release` tab than drag it into your Project folder.
     - Install requirements with `pip install colorama keyboard`
-## Compatibility
+## Compatibility 💥
 Support: Python 3.x & Windows (Linux seems supported too but I haven't tested yet)
-# Examples
-> `BetterPick` is very easy too use!
+# ✨ Examples
+> `BetterPick` is very easy too use! 🍖
 ## For regular use:  
 `Pick("Your menu title goes here!",["Your selection here","Sec1","Sec2"],(True or False - Multiselect) )`  
 **Note:** In Default, To move up or down selection use key `W,S` . Press `Enter` to submit choose. Also in multichoose , press `Spacebar` to check a selection (To change these key , look for "Change key-binding" in Advance use below)
